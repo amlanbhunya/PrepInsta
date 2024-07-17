@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>House Plant </title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.logo {
+  float: left;
+  margin-right: 20px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.search-icon {
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.search-icon i {
+  font-size: 18px;
+}
+
+.filters-section {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.filters-title {
+  display: none; /* Hide the title */
+}
+
+.filters-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.filters-list li {
+  margin-bottom: 10px;
+}
+
+.filters-list input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.articles-section {
+  background-color: #fff;
+  padding: 40px 0;
+  margin-bottom: 20px;
+}
+
+.articles-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.articles-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.article {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.article img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.article h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.article p {
+  line-height: 1.6;
+}
+
+.article-author, .article-date {
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.article-date {
+  color: #777;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="logo">
+      <img src="https://png.pngtree.com/png-clipart/20200727/original/pngtree-plant-house-logo-logo-for-the-business-of-selling-indoor-and-png-image_5140129.jpg" alt="House Plant Journal Logo" height="200" width="200">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">ARTICLES</a></li>
+        <li><a href="#">COURSE</a></li>
+        <li><a href="#">BOOKS</a></li>
+        <li><a href="#">PLANT HELP</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">SPEAKING</a></li>
+        <li><a href="#">SHOP</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+    <div class="search-icon">
+      <i class="fas fa-search"></i>
+    </div>
+    
+  </div>
+</header>
+
+<section class="articles-section">
+  <div class="container">
+    <h2 class="articles-title">ARTICLES</h2>
+    <div class="articles-grid">
+      <div class="article">
+        <img src="https://www.houseplantjournal.com/wp-content/uploads/2023/11/S-truncata-01-420x300.png" alt="Schlumbergera Blooming">
+        <h3>SCHLUMBERGERA BLOOMING: MOST ACCURATE TIPS</h3>
+        <p>In the late fall season, grocery stores and nurseries are filled with colorful blooming plants, commonly called Christmas cactus or Thanksgiving cactus…or even Zygocatus. If you’re confused by plant names, it may help to make this mental separation: Common names: “What is this plant called?” (names given to a plant) Botanical name: “What *is* this plant scientifically named?”</p>
+        <p class="article-author">By Mr. Amlan Sarkari Pandy</p>
+        <p class="article-date">Published on January 10, 2023</p>
+      </div>
+      <div class="article">
+        <img src="https://www.houseplantjournal.com/wp-content/uploads/2023/10/IMG20231017170534-edit-straightened-420x300.jpg" alt="Soltech Grove LED Bar Light">
+        <h3>REVIEW: SOLTECH GROVE LED BAR LIGHT</h3>
+        <p>Disclaimer: this is a paid partnership between Soltech Solutions and House Plant Journal. The products were given to House Plant Journal to provide an honest review. Using the links to purchase from Soltech supports my work at no additional cost to you.</p>
+        <p class="article-author">By Mr. Amlan Sarkari Pandy</p>
+        <p class="article-date">Published on October 15, 2023</p>
+      </div>
+      <div class="article">
+        <img src="https://www.houseplantjournal.com/wp-content/uploads/2023/05/grow-light-01-420x300.jpg" alt="Is a Grow Light Considered Direct or Indirect Light?">
+        <h3>IS A GROW LIGHT CONSIDERED DIRECT OR INDIRECT LIGHT?</h3>
+        <p>If you want to develop strong fundamentals in plant care, my book and online course will guide you in the right direction.</p>
+        <p class="article-author">By Mr. Amlan Sarkari Pandy</p>
+        <p class="article-date">Published on May 20, 2023</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2024 House Plant . All Rights Reserved.</p>
+</footer>
+</body>
+</html>

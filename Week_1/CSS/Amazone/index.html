@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Listing</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    header {
+        background-color: #232f3e;
+        padding: 10px 20px;
+        color: #fff;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+    }
+
+    .filters-section {
+        width: 20%;
+        background-color: #fff;
+        padding: 20px;
+        margin-right: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .filters-section h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .filters-section ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .filters-section li {
+        margin-bottom: 10px;
+    }
+
+    .products-section {
+        width: 80%;
+    }
+
+    .products-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .product-card {
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        width: calc(33.333% - 20px);
+        box-sizing: border-box;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .product-card h3 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .product-card p {
+        font-size: 16px;
+        color: #555;
+    }
+
+    .product-card .price {
+        font-size: 20px;
+        color: #b12704;
+        margin: 10px 0;
+    }
+
+    .product-card .buy-now {
+        display: inline-block;
+        background-color: #ff9900;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Product Listing</h1>
+</header>
+<div class="container">
+    <div class="filters-section">
+        <h2>Filters</h2>
+        <ul>
+            <li><input type="checkbox" id="category1"> <label for="category1">Category 1</label></li>
+            <li><input type="checkbox" id="category2"> <label for="category2">Category 2</label></li>
+            <li><input type="checkbox" id="category3"> <label for="category3">Category 3</label></li>
+            <li><input type="checkbox" id="price-range1"> <label for="price-range1">$0 - $50</label></li>
+            <li><input type="checkbox" id="price-range2"> <label for="price-range2">$50 - $100</label></li>
+            <li><input type="checkbox" id="price-range3"> <label for="price-range3">$100 - $200</label></li>
+        </ul>
+    </div>
+    <div class="products-section">
+        <div class="products-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src=https://m.media-amazon.com/images/I/31vCrLyc-aL._SX300_SY300_QL70_FMwebp_.jpg alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Short description of Product 1.</p>
+                <p class="price">$29.99</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src=https://m.media-amazon.com/images/I/312f3fZIPUL._SX300_SY300_QL70_FMwebp_.jpg alt="Product 2">
+                <h3>Product 2</h3>
+                <p>Short description of Product 2.</p>
+                <p class="price">$59.99</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src=https://m.media-amazon.com/images/I/31A0+eAEvCL._SY300_SX300_.jpg alt="Product 3">
+                <h3>Product 3</h3>
+                <p>Short description of Product 3.</p>
+                <p class="price">$89.99</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/61iLjdY16LL._SX679_.jpg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>Short description of Product 4.</p>
+                <p class="price">$49.99</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+            <!-- Product 5 -->
+            <div class="product-card">
+                <img src= https://m.media-amazon.com/images/I/61sFVp0fucL._SX522_.jpg alt="Product 5">
+                <h3>Product 5</h3>
+                <p>Short description of Product 5.</p>
+                <p class="price">$99.99</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+            <!-- Product 6 -->
+            <div class="product-card">
+                <img src=https://m.media-amazon.com/images/I/416D2INKqgL._SX300_SY300_QL70_FMwebp_.jpg alt="Product 6">
+                <h3>Product 6</h3>
+                <p>Short description of Product 6.</p>
+                <p class="price">$199.99</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+            <!-- Product 7 -->
+            <div class="product-card">
+                <img src=https://m.media-amazon.com/images/I/41Z5aVfJheL._SX300_SY300_QL70_FMwebp_.jpg alt="Product 7">
+                <h3>Product 7</h3>
+                <p>Short description of Product 7.</p>
+                <p class="price">$29.99</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+            <!-- Product 8 -->
+            <div class="product-card">
+                <img src=https://m.media-amazon.com/images/I/31yZiJugcsL._SX300_SY300_QL70_FMwebp_.jpg alt="Product 8">
+                <h3>Product 8</h3>
+                <p>Short description of Product 8.</p>
+                <p class="price">$79.99</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+            <!-- Product 9 -->
+            <div class="product-card">
+                <img src=https://m.media-amazon.com/images/I/31O799nVFpL._SX300_SY300_QL70_FMwebp_.jpg alt="Product 9">
+                <h3>Product 9</h3>
+                <p>Short description of Product 9.</p>
+                <p class="price">$59.99</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

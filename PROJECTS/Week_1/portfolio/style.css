@@ -1,0 +1,383 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+home{
+    margin-top:100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-left: 0px; /* changed from 900px to 0px */
+}
+.logo-box {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo img {
+  width: 100px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.logo-text {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav a {
+  text-decoration: none;
+  color:#333;
+  margin-right: 20px;
+}
+
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  margin-bottom: 180px;
+  margin-top: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 20px;
+  margin-top: 100px;
+}
+
+.profile {
+      width: 250px;
+      height: 300px;
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+
+.profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1px;
+  margin-top:1px;
+}
+
+p {
+  font-size: 0.9em;
+  line-height: 1.5;
+  
+}
+
+.button {
+  background-color: #a08228;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #7b533c;
+}
+
+
+.container1 {
+  background-color: #fff;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 1200px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+h4 {
+  margin-top: 30px;
+}
+
+.aboutme {
+  margin-bottom: 30px;
+}
+
+.skills {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+}
+
+.skill-bar {
+  width: 70%;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.skill-progress {
+  height: 10px;
+  background-color:#373335;
+
+  border-radius: 5px 0 0 5px;
+}
+
+.download-btn {
+  background-color: #373335;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 38%;
+
+}
+.download-btn:hover {
+  background-color: #7b533c;
+}
+
+.img-container {
+  float: left;
+  width: 30%;
+  margin-right: 20px;
+
+  padding: 10px;
+  border-radius: 5px;
+  background-color:#373335;
+  
+}
+
+.img-container img {
+  width: 390px;
+  border-radius: 5px;
+}
+
+.content1 {
+  float: left;
+  width: 60%;
+  margin-left: 60px;
+}
+
+.clear {
+  clear: both;
+}
+.container2 {
+  
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  height: 600px;
+  padding-top: 60px;
+}
+
+.degree-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.degree {
+    background-color: #a08228;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    flex: 1;
+    min-width: 400px;
+    max-width: 30%;
+    margin: 10px;
+    box-sizing: border-box;
+
+}
+.degree:hover {
+  background-color: #7b533c;
+}
+
+
+.degree h3 {
+  margin-top: 10px;
+}
+
+.degree p {
+  margin-bottom: 10px;
+  text-align:center;
+ 
+}
+
+
+
+
+#projects {
+            width: 100%;
+            max-width: 1200px;
+            margin-left: 90px;
+        }
+
+        #projects h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            margin-left: 80px;
+        }
+
+        .projects-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .project {
+    background-color: #c7d6d8;
+    padding: 20px;
+    box-shadow: 0 0 10px #000000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    flex: 1;
+    margin-left : 125px;
+    box-sizing: border-box;
+}
+
+        .project p {
+            font-size: 1.2em;
+            color: #333;
+            margin-top: 10px;
+           
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .container-box {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #312630;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+        .image-box {
+            width: 45%;
+            margin: 10px;
+        }
+
+
+      
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left:-10px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #2980b9;
+}
+
+#contact h1{
+  text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    margin-top:40px;
+}
+#contact p{
+  text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+   
+}
+footer {
+  background-color: #a08228;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+footer p {
+color: #f2f2f2;
+  margin: 0;
+}

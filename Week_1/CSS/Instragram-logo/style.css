@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background:
+      radial-gradient(circle at 30% 107%, #f7cd3c 24%, #e6295a 62%, #8a3ab9 78%, #3b5998),
+      linear-gradient(130deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888, #9c2078, #7c2c6c, #4c4184);
+  }
+  .instagram-logo {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .camera-outline {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 10;
+    left: 10;
+    border: 10px solid white;
+    border-radius: 50%;
+    z-index: -1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    
+  }
+
+  .border-rectangle {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 10;
+    left: 10;
+    border: 10px solid white;
+    border-radius: 30px;
+    z-index: -1;
+  }
+
+  
+  
+
+  .flash {
+    width: 20%;
+    height: 20%;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -20%;
+    right: -23%;
+  }
