@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">AB Shopping</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Electronics</a></li>
+      <li><a href="#">Fashion</a></li>
+      <li><a href="#">Groceries</a></li>
+    </ul>
+    <div class="cart-icon" onclick="toggleCart()">
+      <span id="cart-count">0</span> 🛒
+    </div>
+  </nav>
+
+  <!-- Products Section -->
+  <section id="products">
+    <h2>Products</h2>
+    <div class="product-list">
+      <!-- Product Cards will be injected dynamically -->
+    </div>
+  </section>
+
+  <!-- Cart Section -->
+  <section id="cart" class="hidden">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <div id="cart-total">Total: $0.00</div>
+    <button onclick="checkout()">Checkout</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

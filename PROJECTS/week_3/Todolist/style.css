@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: image-set("you.jpg")
+}
+
+.todo-container {
+    background: #786fe7;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#new-task {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+#add-task {
+    padding: 10px;
+    background: #d86802;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 45px;
+    width: 100px;
+}
+
+#add-task:hover {
+    background: #b35702;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    flex: 1;
+    overflow-y: auto;
+    font-size: 1.2em; /* Font size for task list */
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #ecfeff;
+font-weight: bold;
+}
+
+li.completed {
+   
+    color: #c81f35;
+    font-weight: bold;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.6); /* Size for checkboxes */
+    
+}
+
+#clear-completed {
+    margin-top: 20px;
+    align-self: center;
+    padding: 10px;
+    background: #c81f35;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 45px;
+
+}
+#clear-completed:hover {
+    background: #a8192c; /* Darker shade for hover */
+}
+#task-list{
+   
+    border:2px solid black;
+    background:image-set("youuuu.png");
+    border-radius: 20px;
+    
+}

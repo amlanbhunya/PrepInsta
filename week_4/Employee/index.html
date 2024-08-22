@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Employee Management System</h1>
+
+    <!-- Employee List Section -->
+    <section id="employee-list">
+      <h2>Employees</h2>
+      <ul id="employees"></ul>
+    </section>
+
+    <!-- Functions Section -->
+    <section id="functions">
+      <h2>Actions</h2>
+
+      <!-- Calculate Average Salary -->
+      <button onclick="calculateAverageSalary()">Calculate Average Salary</button>
+      <div id="average-salary"></div>
+
+      <!-- Find Employees by Department -->
+      <h3>Find Employees by Department</h3>
+      <input type="text" id="department-name" placeholder="Enter Department Name">
+      <button onclick="findEmployeesByDepartment()">Find</button>
+      <ul id="department-employees"></ul>
+
+      <!-- Increase Salary -->
+      <h3>Increase Salary</h3>
+      <input type="number" id="salary-percentage" placeholder="Enter Percentage (%)">
+      <button onclick="increaseSalary()">Increase Salary</button>
+
+      <!-- Sort Employees by Age -->
+      <button onclick="sortEmployeesByAge()">Sort by Age</button>
+      <ul id="sorted-employees"></ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
