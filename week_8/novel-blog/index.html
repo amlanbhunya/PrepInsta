@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novel Vlog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Novel Vlog</h1>
+        <button id="upload-btn">Upload New Novel</button>
+        <div id="upload-form" class="hidden">
+            <h2>Upload Novel</h2>
+            <form id="novel-form">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required>
+
+                <label for="genre">Genre:</label>
+                <input type="text" id="genre" name="genre" required>
+
+                <label for="summary">Summary:</label>
+                <textarea id="summary" name="summary" rows="4" required></textarea>
+
+                <label for="image-url">Image URL:</label>
+                <input type="text" id="image-url" name="image-url" required>
+
+                <button type="button" onclick="uploadNovel()">Upload Novel</button>
+                <button type="button" onclick="cancelUpload()">Cancel</button>
+            </form>
+        </div>
+
+        <div id="novels-list">
+            <p id="no-novels-message">No novels available</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

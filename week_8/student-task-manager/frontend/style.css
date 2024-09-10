@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ae4141;
+    margin: 0;
+    padding: 0;
+  }
+  form {
+    margin: 20px;
+  }
+  #tasksList {
+    margin: 20px;
+  }
+  

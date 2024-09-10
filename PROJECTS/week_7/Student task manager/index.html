@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Task Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add a Task</h1>
+        <form id="task-form">
+            <label for="course-id">Course ID:</label>
+            <input type="text" id="course-id" name="course-id" required>
+
+            <label for="task-name">Task Name:</label>
+            <input type="text" id="task-name" name="task-name" required>
+
+            <label for="due-date">Due Date (M-D-Y):</label>
+            <input type="text" id="due-date" name="due-date" placeholder="MM-DD-YYYY" required>
+
+            <label for="task-details">Task Details:</label>
+            <textarea id="task-details" name="task-details" rows="4" required></textarea>
+
+            <button type="button" onclick="addTask()">Add</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
